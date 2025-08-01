@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stepping Stone Academy - Montessori School Mysore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./images/logo.jpeg" alt="The Stepping Stone Academy Logo" class="logo-img">
+                <span>The Stepping Stone Academy</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to The Stepping Stone Academy</h1>
+            <p class="hero-subtitle">A Montessori Learning Environment in Mysore</p>
+            <p class="hero-description">
+                Nurturing young minds through authentic Montessori education, 
+                where children learn at their own pace in a prepared environment.
+            </p>
+            <button class="cta-button" onclick="scrollToSection('about')">
+                Discover Our Approach
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="./images/school.jpeg" alt="The Stepping Stone Academy Montessori School" class="hero-school-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Academy</h2>
+                <p>At The Stepping Stone, our classrooms come alive with opportunities 
+                    for children to explore, create, and grow confidently. Under the guidance
+                    of certified Montessori educators, each child is supported in building 
+                    academic skills, social connections, and emotional strength in a warm and 
+                    organized learning environment. With appropriately sized classrooms, hands-on 
+                    materials, and a mix of age groups, children engage deeply with what interests them.
+                    Our small class sizes and experienced team ensure every child receives personalized support.
+                    We are proud to nurture a joyful learning community where every child is respected, encouraged, 
+                    and celebrated.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Philosophy</h3>
+                    <p>
+                        At The Stepping Stone Academy, we follow the authentic Montessori method, 
+                        creating an environment where children are free to explore, discover, and 
+                        learn at their own natural pace. Our prepared environment encourages 
+                        independence, creativity, and a love for learning.
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Child-Centered Learning</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Mixed Age Groups</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Natural Environment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Certified Teachers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/P6.jpeg" alt="Montessori Learning Environment" class="about-school-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Programs</h2>
+                <p>Comprehensive development for every child</p>
+            </div>
+            <div class="program-highlight">
+                <div class="program-card featured">
+                    <div class="program-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Learning Programme</h3>
+                    <p>
+                        Our signature early literacy program that introduces children to the joy of 
+                        reading and writing through traditional and modern methodologies. This program 
+                        builds strong foundations in language skills and prepares children for academic success.
+                    </p>
+                    <div class="program-features">
+                        <span class="feature-tag">Phonetic Learning</span>
+                        <span class="feature-tag">Creative Writing</span>
+                        <span class="feature-tag">Reading Comprehension</span>
+                    </div>
+                </div>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h4>Social Skills</h4>
+                    <p>Building interpersonal skills and emotional intelligence</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-running"></i>
+                    <h4>Motor Skills</h4>
+                    <p>Fine and gross motor development activities</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-book-open"></i>
+                    <h4>Literacy Development</h4>
+                    <p>Early reading and writing with periodic assessments</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-music"></i>
+                    <h4>Music </h4>
+                    <p>Singing, rhythm games, and instruments boost language, memory, focus, and social rhythm </p>
+                </div>
+                    <div class="program-card">
+                    <i class="fas fa-child"></i>
+                    <h4>Dance </h4>
+                    <p>Movement to music builds balance, coordination, spatial awareness, and emotional expression</p>
+                </div>
+                    <div class="program-card">
+                    <i class="fas fa-spa"></i>
+                    <h4>Yoga </h4>
+                    <p>Gentle poses and breathing exercises enhance strength, flexibility, body awareness, focus, and calmness </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Events & Activities</h2>
+                <p>Celebrating learning through diverse experiences</p>
+            </div>
+            <div class="events-categories">
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All Events</button>
+                    <button class="filter-btn" data-category="educational">Educational</button>
+                    <button class="filter-btn" data-category="cultural">Cultural</button>
+                    <button class="filter-btn" data-category="national">National</button>
+                    <button class="filter-btn" data-category="sports">Sports</button>
+                    <button class="filter-btn" data-category="wellness">Wellness</button>
+                </div>
+                
+                <div class="events-grid">
+                    <!-- Educational Events -->
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Aksharabhyasa Programme</h4>
+                        <p>Early literacy development activities with periodic assessments</p>
+                    </div>
+
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h4>Science Expo</h4>
+                        <p>Hands-on science experiments and discovery activities</p>
+                    </div>
+
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h4>Educational Trips</h4>
+                        <p>Learning expeditions and field trips</p>
+                    </div>
+
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>Literary Competitions</h4>
+                        <p>Drawing, Story telling, Science Quiz, Shloka chanting, Rhymes</p>
+                    </div>
+
+                    <!-- Cultural Events -->
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-om"></i>
+                        </div>
+                        <h4>Regional Festivities</h4>
+                        <p>Gokulashtami, Gowri-Ganesha, Gombe Habba, Suggi Habba</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-theater-masks"></i>
+                        </div>
+                        <h4>Cultural Fest</h4>
+                        <p>Annual cultural celebrations showcasing talents</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Annual Day</h4>
+                        <p>Grand celebration of the year's achievements</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h4>Special Celebrations</h4>
+                        <p>Holi, Christmas, New Year, Birthday celebrations</p>
+                    </div>
+
+                    <!-- National Events -->
+                    <div class="event-card" data-category="national">
+                        <div class="event-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>National Festivities</h4>
+                        <p>Independence Day, Republic Day, Children's Day, Teachers Day</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Environment Day</h4>
+                        <p>Environment sensitivity and Clean India Mission activities</p>
+                    </div>
+
+                    <!-- Sports & Fitness -->
+                    <div class="event-card" data-category="sports">
+                        <div class="event-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h4>Sports Day</h4>
+                        <p>Athletic competitions and physical fitness activities</p>
+                    </div>
+
+                    <div class="event-card" data-category="sports">
+                        <div class="event-icon">
+                            <i class="fas fa-kiwi-bird"></i>
+                        </div>
+                        <h4>Kite Festival</h4>
+                        <p>Motor skill development through kite flying activities</p>
+                    </div>
+
+                    <!-- Wellness -->
+                    <div class="event-card" data-category="wellness">
+                        <div class="event-icon">
+                            <i class="fas fa-lotus-pose"></i>
+                        </div>
+                        <h4>Yoga & Wellness</h4>
+                        <p>Yoga Day, Meditation, Mudra classes, Aerobics</p>
+                    </div>
+
+                    <div class="event-card" data-category="wellness">
+                        <div class="event-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h4>Community Lunch</h4>
+                        <p>Nutritious meals and cooking without fire competitions</p>
+                    </div>
+
+                    <!-- Special Programs -->
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Community Helpers</h4>
+                        <p>Teacher's Day, Doctor's Day appreciation programs</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Relationship Building</h4>
+                        <p>Friendship Day, Rakshabandhan, Father's Day celebrations</p>
+                    </div>
+
+                    <div class="event-card" data-category="cultural">
+                        <div class="event-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Colors Day</h4>
+                        <p>Celebrating colors through creative activities</p>
+                    </div>
+
+                    <div class="event-card" data-category="educational">
+                        <div class="event-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h4>Awards & Graduation</h4>
+                        <p>Awards ceremony and graduation day celebrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Event Gallery</h2>
+                <p>Memories from our wonderful events</p>
+            </div>
+            <div class="gallery-content" id="gallery-content">
+<div class="gallery-item" data-photo="1">
+  <img src="images/P1.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P2.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P3.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P4.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P5.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P6.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P7.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P8.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P9.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P10.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P11.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P12.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P13.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P14.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P15.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P16.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P17.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P18.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P19.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P20.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P21.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P22.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P23.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P24.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P25.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P26.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P27.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P28.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P29.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P30.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P31.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P32.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P33.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P34.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P35.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P36.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P37.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P38.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P40.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P41.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P42.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P43.jpeg" alt="Photo 1">
+</div>
+<div class="gallery-item" data-photo="2">
+  <img src="images/P44.jpeg" alt="Photo 2">
+</div>
+<div class="gallery-item" data-photo="1">
+  <img src="images/P45.jpeg" alt="Photo 1">
+</div>
+    </div>
+        </div>
+             </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>#31, BEML Nagar Main Road, Opposite Nammane Interiors, Mysore, Karnataka, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 8951195611</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>tssacademymys@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>School Hours</h4>
+                            <p>Monday - Friday: 9:40 AM - 2:30 PM</p>
+                            <p>Saturday: 9:00 AM - 12:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="./images/logo.jpeg" alt="The Stepping Stone Academy Logo" class="footer-logo-img">
+                        <span>The Stepping Stone Academy</span>
+                    </div>
+                    <p>Nurturing young minds through authentic Montessori education in Mysore.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> #31, BEML Main Road, Mysore, Karnataka</p>
+                    <p><i class="fas fa-phone"></i> +91 8951194611</p>
+                    <p><i class="fas fa-envelope"></i> tssacademymys@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Stepping Stone Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Event Gallery</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="gallery-grid" id="modal-gallery-grid">
+                    <!-- Gallery images will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
